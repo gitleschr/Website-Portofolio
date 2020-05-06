@@ -2,6 +2,7 @@ new Vue({
     el:'#app',
     data: {
         nama: 'Charles',
+        panggilan: 'Jeremy',
         website : 'https://www.mokapos.com/',
         websiteTag: '<a href="https://www.qiscus.com/">kuro'
     },
