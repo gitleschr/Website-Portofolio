@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <!-- Begin Header -->
+        <div class="hero is-success is-fullheight is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">Title</h1>
+                </div>
+            </div>
+
+            <div class="hero-foot is-bold">
+                <nav class="tabs is-boxed is-fullwidth">
+                    <div class="container">
+                        <ul>
+                            <li class="is-active"><a href="">Home</a></li>
+                            <li><a href="">About Me</a></li>
+                            <li><a href="">Skill</a></li>
+                            <li><a href="">Experienced</a></li>
+                            <li><a href="">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <!-- Begin Main Content -->
+        <div class="main-content">
+            <!-- Begin About Me Section -->
+            <div class="section-light about-me" id="about-me">
+                <div class="container hero">
+                    <div class="column is-12 about-me">
+                        <h1 class="title has-text-centered section-title">About Me</h1>
+                    </div>
+                    <div class="columns is-multiline">
+                        <div class="column is-6 has-vertically-aligned-content">
+                            <p class="is-large" ><strong>Showcase is a modern, beautiful personal website template to showcase who you are, as well as projects you've worked on in the past.</strong></p>
+                            <br>
+                            <p>Showcase was built from the ground up with Bulma to be fast and responsive out of the box with all source files well documented for easy to customization. The Showcase template gives you a personal space to share what you are all about as a creative designer, developer, photographer, and more!</p>
+                            <br><br>
+                            <div class="columns about-links">
+                                <div class="column">
+                                    <p class="heading"><strong>Give me a ring</strong></p>
+                                    <p class="subheading">089695729244</p>
+                                </div>
+                                <div class="column">
+                                    <p class="heading"><strong>Email Me</strong></p>
+                                    <p class="subheading">hello@example.com</p>
+                                </div>
+                                <div class="column">
+                                    <p class="heading"><strong>View my Portofolio</strong></p>
+                                    <p class="subheading">example.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-6 has-vertically-aligned-content">
+                            <div class="column right-image">
+                                <figure class="image is-2by1">
+                                    <img src="https://i.picsum.photos/id/1022/6000/3376.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End About Me Content -->
+            <br><br>
+            <div class="section-dark resume">
+                <div class="container">
+                    <div class="columns is-multiline">
+                        <div class="column is-12 about-me">
+                            <h1 class="title has-text-centered section-title">
+                                View My Resume
+                            </h1>
+                        </div>
+                        <div class="column is-10 has-text-centered is-offset-1">
+                            <h2 class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, cum.</h2>
+                            <input class="button is-primary" value="Download" onclick="window.open('https://drive.google.com/file/d/1KtzFhR1DpQULucxq6gh4oLQ8SiZg5_78/view')" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Buefy components goes here -->
+        <h1 class="title">Haii</h1>
+        <button class="button is-primary">ini</button>
+        <p>Nama : {{ nama }}</p>
+        <a v-bind:href="website">Moka</a>
+        <div class="block">
+            <p v-html="websiteTag" class="button is-primary"></p>
+        </div>
+        <button >HOII</button>
+        
+
+    </div>
+
+    <script src="app.js">
+
+    </script>
+    <script src="https://unpkg.com/vue"></script>
+    <!-- Full bundle -->
+    <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+
+    <!-- Individual components -->
+    <script src="https://unpkg.com/buefy/dist/components/table"></script>
+    <script src="https://unpkg.com/buefy/dist/components/input"></script>
+
+</body>
+</html>
