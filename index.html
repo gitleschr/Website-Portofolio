@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 
 <body>
@@ -103,8 +103,91 @@
             <p v-html="websiteTag" class="button is-primary"></p>
         </div>
         <button >HOII</button>
-        
 
+        <span>
+            <br><br>
+            <br><br>
+            <br><br>
+            <i class="far fa-clock"></i>
+            <br>
+            <br>
+        </span>
+
+        <!--Bulma form-->
+
+        <div class="field is-inline">
+            <label class="label">Nama</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="text" placeholder="Masukkan nama" value="Charles">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="field is-inline">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope" ></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="field">
+            <label class="label" >Pesan</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Pesan"></textarea>
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+                <button class="button is-link is-dark">Cancel</button>
+            </div>
+        </div>
+
+        <section class="hero is-success">
+            <div class="hero-body">
+                <h1 class="title">Pemisah</h1>
+            </div>
+        </section>
+        <!--Traversy-->
+        <form action="POST" data-netlify="true">
+            <div class="fields">
+                <div class="field half">
+                    <input type="text" name="name" id="name" placeholder="Nama">
+                </div>
+                <div class="field half">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message" rows="7" placeholder="Pesan"></textarea>
+                </div>
+                <div class="field">
+                    <input type="file" name="myfile" id="myfile" Placeholder="Upload File"></textarea>
+                </div>
+                <div class="field">
+                    <div data-netlify-recaptcha="true" ></div>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="button primary"></li>
+            </ul>
+        </form>
     </div>
 
     <script src="app.js">
