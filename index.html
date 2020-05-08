@@ -163,7 +163,7 @@
                     <input type="submit" value="Kirim" class="button is-primary">
             </div>
         </form>
--->
+
 
         <br><br>
         <section class="hero is-success">
@@ -185,16 +185,37 @@
                     <textarea name="message" id="message" rows="7" placeholder="Pesan"></textarea>
                 </div>
                 <div class="field">
-                    <input type="file" name="myfile" id="myfile" Placeholder="Upload File"></textarea>
+                    <input type="file" name="myfile" id="myfile" Placeholder="Upload File">
                 </div>
                 <div class="field">
                     <div data-netlify-recaptcha="true" ></div>
                 </div>
             </div>
             <ul class="actions">
-                <li><input type="submit" value="Send Message" class="button primary"></li>
+                <li><input type="submit" value="Send Message" class="button primary"/></li>
             </ul>
         </form>
+-->
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
     </div>
 
     <script src="app.js">
