@@ -114,64 +114,61 @@
         </span>
 
         <!--Bulma form-->
-        <div class="container is-fullhd" method="POST" data-netlify="true">
-            <div class="field is-inline">
-                <label class="label">Nama</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input" type="text" placeholder="Masukkan nama" value="Charles">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
-                </div>
-            </div>
-    
-            <br>
-    
-            <div class="field is-inline">
-                <label class="label">Email</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope" ></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
+        <form class="container is-fullhd" method="POST" data-netlify="true">
+            <div class="actions">
+                <div class="field is-inline">
+                    <label class="label">Nama</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="Masukkan nama" value="Charles">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                        </span>
                     </div>
-                    <p class="help is-danger">This email is invalid</p>
                 </div>
-            </div>
+        
+                <br>
+        
+                <div class="field is-inline">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Email input" value="hello@">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope" ></i>
+                        </span>
+                    </div>
+                </div>
+        
+                <br>
+        
+                <div class="field is-inline">
+                    <label class="label" >Pesan</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Pesan"></textarea>
+                    </div>
+                </div>
     
-            <br>
+                <br>
+                <div class="field is-inline">
+                    <label class="label">Upload Resume</label>
+                    <div class="control">
+                        <input type="file" id="myfile" name="myfile">
+                    </div>    
+                </div>
     
-            <div class="field is-inline">
-                <label class="label" >Pesan</label>
-                <div class="control">
-                    <textarea class="textarea" placeholder="Pesan"></textarea>
+                <div class="field">
+                    <div data-netlify-recaptcha="true"></div>
+                </div>
+    
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="actions button is-link">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-dark">Cancel</button>
+                    </div>
                 </div>
             </div>
-
-            <br>
-            <div class="field is-inline">
-                <label class="label">Upload Resume</label>
-                <div class="control">
-                    <input type="file" id="myfile" name="myfile">
-                </div>    
-            </div>
-
-            <div class="field">
-                <div data-netlify-recaptcha="true"></div>
-            </div>
-
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="actions button is-link">Submit</button>
-                </div>
-                <div class="control">
-                    <button class="button is-dark">Cancel</button>
-                </div>
-            </div>
-        </div>
+        </form>
 
 
         <br><br>
@@ -180,7 +177,7 @@
                 <h1 class="title">Pemisah</h1>
             </div>
         </section>
-        <!--Traversy-->
+        <!--Traversy
         <form method="POST" data-netlify="true">
             <div class="fields">
                 <div class="field half">
@@ -203,6 +200,7 @@
                 <li><input type="submit" value="Send Message" class="button primary"></li>
             </ul>
         </form>
+        -->
     </div>
 
     <script src="app.js">
