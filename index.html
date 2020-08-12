@@ -11,11 +11,11 @@
 <body>
     <div id="app">
         <!-- Begin Header -->
-        <div class="hero is-success is-fullheight is-bold">
+        <div class="hero is-info is-fullheight is-bold">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title">Title</h1>
-                    <p class="subtitle">Nama panggilannya adalah {{ panggilan }}</p>
+                    <h1 class="title">{{ nama }}</h1>
+                    <p class="subtitle">{{ about_us }}</p>
                 </div>
             </div>
 
@@ -23,11 +23,9 @@
                 <nav class="tabs is-boxed is-fullwidth">
                     <div class="container">
                         <ul>
-                            <li class="is-active"><a href="">Home</a></li>
-                            <li><a href="">About Me</a></li>
-                            <li><a href="">Skill</a></li>
-                            <li><a href="">Experienced</a></li>
-                            <li><a href="">Contact Me</a></li>
+                            <li><a href="#experienced">Experienced</a></li>
+                            <li><a href="#skills">Skill</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -75,6 +73,7 @@
             </div>
             <!-- End About Me Content -->
             <br><br>
+            
             <div class="section-dark resume">
                 <div class="container">
                     <div class="columns is-multiline">
@@ -89,11 +88,202 @@
                         </div>
                     </div>
                 </div>
-
+                <br>
             </div>
+            <!-- End Resume Content -->
+            <div class="section hero is-dark is-fullheight" id="services">
+                <div class="container">
+                    <div class="columns is-multiline">
+                        <div class="column is-12 about-me">
+                            <h1 class="title has-text-centered section-title">Services</h1>
+                            <br>    
+                            <h2 class="subtitle has-text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, aperiam?</h2>
+                            <br>
+                        </div>
+                        <div class="columns is-12">
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-angry fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr is-primary>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-dizzy fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr is-primary>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-dizzy fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr is-primary>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                            
+                        </div>
+                        <div class="columns is-12">
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-angry fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr is-primary>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-dizzy fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr is-primary>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <span class="icon is-large has-text-info">
+                                    <div class="fa-stack fa-lg">
+                                        <i class="far fa-dizzy fa-stack-2x"></i>
+                                    </div>
+                                </span>
+                                <hr>                              
+                                <h2 >
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illo?
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Content -->
+            <div class="section hero" id="skills">
+                <div class="column">
+                    <h1 class="title has-text-centered">
+                            SKILLS
+                            <span>
+                    </h1>
+                </div>
+                <div class="container">
+                    <br>
+                    <div class="columns is-multiline ">
+                        <div class="column">
+                            <h1 class="title is-4">CorelDraw</h1>
+                            <h1 class="title is-4">Adobe Photoshop</h1>
+                            <h1 class="title is-4">Adobe Premiere</h1>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-4 ">Business</h1>
+                            <h1 class="title is-4 ">Marketing</h1>
+                            <h1 class="title is-4 ">Services.</h1>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-4">Python</h1>
+                            <h1 class="title is-4">Flask</h1>
+                            <h1 class="title is-4">Vue JS</h1>
+                            <h1 class="title is-4">HTML & CSS</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Skills Content -->
+
+            <!-- Begin Contact Me Content -->
+            <div class="section hero is-warning is-fullheight has-text-centered" id="experienced">
+                <div class="section-heading">
+                    <h3 class="title is-2 ">Pengalaman</h3>
+                </div>
+                    <h4 class="subtitle is-4">Kerja</h4>
+                <div class="columns is-multiline ">
+                    <div class="column ">
+                        <div class="box">
+                            <div class="content ">
+                                <h4 class="subtitle is-4">Lorem, ipsum.</h4>
+                                <h5 class="subtitle is-6">Lorem ipsum dolor sit.</h5>
+                                Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <h4>Lorem, ipsum.</h4>
+                                Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                        <h4 class="subtitle is-4">Organisasi</h4>
+                        <div class="box">
+                            <div class="content">
+                                <h4>Lorem, ipsum.</h4>
+                                Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <!-- End My Work Content -->
+            <!-- Begin Contact Me Content -->
+            <section class="hero is-fullheight" id="contact">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <div class="columns is-8 is-variable ">
+                            <div class="column is-one-thirds has-text-left">
+                                <h1 class="title is-1">Contact Us</h1>
+                                <div class="social-media">
+                                    <a href="https://www.linkedin.com/in/charlessiagian/" target="_blank" class="button is-light is-large"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+
+                                </div>
+                            </div>
+                            <div class="column is-two-third has-text-left" method="POST" data-netlify="true">
+                                <div class="field">
+                                    <label class="label">Name</label>
+                                    <div class="control">
+                                        <input class="input is-medium" type="text">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control">
+                                        <input class="input is-medium" type="text">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea is-medium"></textarea>
+                                    </div>
+                                </div>
+                                <div class="control">
+                                    <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Me Content -->
         </div>
 
-
+        
         <!-- Buefy components goes here -->
         <h1 class="title">Haii</h1>
         <button class="button is-primary">ini</button>
@@ -217,6 +407,9 @@
             </p>
           </form>
           -->
+
+
+        
 
     </div>
 

@@ -1,8 +1,8 @@
 new Vue({
     el:'#app',
     data: {
-        nama: 'Charles',
-        panggilan: 'Jeremy',
+        nama: 'Charles Siagian',
+        about_us: 'I am looking for a job',
         website : 'https://www.mokapos.com/',
         websiteTag: '<a href="https://www.qiscus.com/">kuro'
     },
