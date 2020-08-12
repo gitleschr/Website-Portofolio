@@ -253,29 +253,31 @@
 
                                 </div>
                             </div>
-                            <div class="column is-two-third has-text-left" name="contact" method="POST" data-netlify="true">
-                                <div class="field">
-                                    <label class="label">Name</label>
+                            <form method="POST" data-netlify="true">
+                                <div class="column is-two-third has-text-left" name="contact">
+                                    <div class="field">
+                                        <label class="label">Name</label>
+                                        <div class="control">
+                                            <input class="input is-medium" type="text" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Email</label>
+                                        <div class="control">
+                                            <input class="input is-medium" type="text" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Message</label>
+                                        <div class="control">
+                                            <textarea class="textarea is-medium"name="message"></textarea>
+                                        </div>
+                                    </div>
                                     <div class="control">
-                                        <input class="input is-medium" type="text" name="name">
+                                        <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
                                     </div>
                                 </div>
-                                <div class="field">
-                                    <label class="label">Email</label>
-                                    <div class="control">
-                                        <input class="input is-medium" type="text" name="email">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Message</label>
-                                    <div class="control">
-                                        <textarea class="textarea is-medium"name="message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="control">
-                                    <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
