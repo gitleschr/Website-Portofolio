@@ -253,23 +253,23 @@
 
                                 </div>
                             </div>
-                            <div class="column is-two-third has-text-left" method="POST" data-netlify="true">
+                            <div class="column is-two-third has-text-left" name="contact" method="POST" data-netlify="true">
                                 <div class="field">
                                     <label class="label">Name</label>
                                     <div class="control">
-                                        <input class="input is-medium" type="text">
+                                        <input class="input is-medium" type="text" name="name">
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">Email</label>
                                     <div class="control">
-                                        <input class="input is-medium" type="text">
+                                        <input class="input is-medium" type="text" name="email">
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">Message</label>
                                     <div class="control">
-                                        <textarea class="textarea is-medium"></textarea>
+                                        <textarea class="textarea is-medium"name="message"></textarea>
                                     </div>
                                 </div>
                                 <div class="control">
@@ -304,63 +304,7 @@
         </span>
 
         Bulma form
-        <form name="tamu" class="container is-fullhd" method="POST" data-netlify="true">
-            <div class="field">
-                <div class="field is-inline">
-                    <label class="label">Nama</label>
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input" type="text" name="name"  id="name" placeholder="Masukkan nama" value="Charles">
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-user"></i>
-                        </span>
-                    </div>
-                </div>
-        
-                <br>
-        
-                <div class="field is-inline">
-                    <label class="label">Email</label>
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input" name="email" id="email" type="email" placeholder="Email input" value="hello@">
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-envelope" ></i>
-                        </span>
-                    </div>
-                </div>
-        
-                <br>
-        
-                <div class="field is-inline">
-                    <label class="label" >Pesan</label>
-                    <div class="control">
-                        <textarea class="textarea" id="message" placeholder="Pesan"></textarea>
-                    </div>
-                </div>
-    
-                <br>
-                <div class="field is-inline">
-                    <label class="label">Upload Resume</label>
-                    <div class="control">
-                        <input type="file" id="myfile" name="myfile">
-                    </div>    
-                </div>
-    
-                <div class="field is-inline">
-                    <div data-netlify-recaptcha="true"></div>
-                </div>
-            </div>
-            <div class="control">
-                <button type="submit">Kirim</button>
-            </div>
-        </form>
-
-        
-        <br><br>
-        <section class="hero is-success">
-            <div class="hero-body">
-                <h1 class="title">Pemisah</h1>
-            </div>
-        </section>
+       
         <!--
         Traversy
         <form action="POST" data-netlify="true">
