@@ -2,7 +2,7 @@ new Vue({
     el:'#app',
     data: {
         nama: 'Charles Siagian',
-        about_us: 'I am looking for a job',
+        about_us: 'Business Management and Marketing',
         website : 'https://www.mokapos.com/',
         websiteTag: '<a href="https://www.qiscus.com/">kuro'
     },
